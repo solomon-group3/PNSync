@@ -1,5 +1,5 @@
 body{
-    background-image: url("Images/pnc-frontresized.png");
+    background-image: url("./Images/pnc-front resized.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,6 +12,12 @@ body{
 #font{
     font-size: 18px;
     color: rgb(3, 128, 55);
+    text-shadow: 0.5px 0.5px rgb(174, 175, 175);
+    font-family: "Raleway";
+}
+#font:hover{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
     text-shadow: 0.5px 0.5px rgb(174, 175, 175);
     font-family: "Raleway";
 }
@@ -101,7 +107,8 @@ body{
     text-align: right;
 }
 .nav-link:hover{
-    background-color: rgb(22, 118, 55);
+    background-color:rgb(22, 118, 55);
     border-radius: 5px;
     color: white;
+    text-shadow: 0.5px 0.5px rgb(251, 255, 255);
 }
