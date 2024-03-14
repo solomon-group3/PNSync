@@ -100,3 +100,8 @@ body{
 .justify{
     text-align: right;
 }
+.nav-link:hover{
+    background-color: rgb(22, 118, 55);
+    border-radius: 5px;
+    color: white;
+}
